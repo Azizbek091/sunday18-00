@@ -20,6 +20,8 @@ ul {
 .header__nav {
     background: rgb(91, 91, 144);
     padding: 20px;
+    position: fixed;
+    width: 100%;
 }
 .header__nav-container {
     display: flex;
@@ -61,4 +63,20 @@ h1 {
     height: 50px;
     background: red;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.main {
+    background: rgb(41, 40, 40) ;
+    height: 100vh;
+}
+
+.main__block {
+    display: flex;
+    gap: 10px;
+}
+.main__item {
+    height: 500px;
+    background: red;
+    width: calc(100% / 6);
+    
 }
